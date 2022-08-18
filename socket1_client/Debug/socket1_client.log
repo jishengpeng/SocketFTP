@@ -1,0 +1,4 @@
+﻿  socket1_client.cpp
+D:\编译器\vs代码区\socket1_client\socket1_client.cpp(15,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\编译器\vs代码区\socket1_client\socket1_client.cpp(28,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  socket1_client.vcxproj -> D:\编译器\vs代码区\socket1_client\Debug\socket1_client.exe
