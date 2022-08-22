@@ -74,9 +74,18 @@ int main() {
                 printf("发送成功(%d)字节:\n", ret);
             }
             else {
-                if (szBuffer[0] == '3') {
+                if (szBuffer[0] == '4') {
                     printf("客户端退出系统\n");
                     break;
+                }
+                else {
+                    //向客户端发送数据
+                    char* str4 = "jsp";
+                    char tmp4[100];
+                    printf("请输入你想向服务端发送的话:");
+                    scanf("%s", tmp4);
+                    str4 = tmp4;
+                    send(sock, str4, strlen(str4) + sizeof(char), NULL);
                 }
             }
         }
